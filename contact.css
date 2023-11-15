@@ -88,6 +88,89 @@ input {
     text-shadow: 5px 5px 10px black;
 }
 
+main {
+    background-color: #EFEFEF;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 10px black;
+    margin-bottom: 35px;
+    padding-top: 70px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 10px black;
+    margin-bottom: 22px;
+}
+
+.telephone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.5em;
+    margin-bottom: 50px;
+}
+
+.conteneur-form input[type=text], .conteneur-form textarea, .conteneur-form input[type=email], .liste-form {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+}
+  
+.conteneur-form label {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+}
+  
+.conteneur-form input[type=submit] {
+    background-color: #D5F3FE;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.conteneur-form input[type=submit]:hover {
+    background-color: #D5F3FE;
+}
+  
+.conteneur-form {
+    box-sizing : border-box;
+    border-radius:5px;
+    background-color:#706e6e;
+    padding:20px;
+    width: 100%;
+    max-width: 600px;
+    margin:0 auto;
+    margin-top: 50px;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+
 footer {
     padding: 10px;
     bottom: 0;
