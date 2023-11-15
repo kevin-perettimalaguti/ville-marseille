@@ -21,7 +21,7 @@ nav {
 .tabs {
     font-family: 'Montserrat', sans-serif;
     font-weight: 530;
-    text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.459)
+    text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.459);    
 }
 
 .logo {
@@ -96,18 +96,6 @@ input {
     justify-content: space-around;
     margin: auto;
     background-color: white;
-}
-
-.logohamburger 
-{
-    width: 45px;
-    height: 40px;
-}
-
-.logorecherche 
-{
-    width: 55px;
-    height: 55px;
 }
 
 ul 
