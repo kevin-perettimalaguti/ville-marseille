@@ -10,10 +10,65 @@
 
 <body>
     <header>
-        <h1>Randonnées à Marseille</h1>
+        <nav>
+            <div class="pages">
+                <ul>
+                    <li><a href="#" class="tabs">Histoire</a></li>
+                    <div class="dropdown">
+                        <a href="#" class="tabs">Randonnées</a>
+                        <ul class="submenu">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="tabs">Plages</a>
+                        <ul class="submenu">
+                            <li><a href="#">Plage du Prado</a></li>
+                            <li><a href="#">Plage des Catalans</a></li>
+                            <li><a href="#">Plage de la Pointe Rouge</a></li>
+                            <li><a href="#">Plage de Corbières</a></li>
+                            <li><a href="#">Plage du Prophète</a></li>
+                            <li><a href="#">Calanque de Sormiou</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <li><img class="logo" src="Armoiries_de_Marseille-removebg-preview.png" alt="Logo ville de Marseille"></li>
+                    <div class="dropdown">
+                        <a href="#" class="tabs">Musées</a>
+                        <ul class="submenu">
+                            <li><a href="#">MUCEM</a></li>
+                            <li><a href="#">Musée d'histoire de Marseille</a></li>
+                            <li><a href="#">Musée Cantini</a></li>
+                            <li><a href="#">La Vieille Charité</a></li>
+                            <li><a href="#">Musée des Beaux-arts</a></li>
+                            <li><a href="#">Musée d'art contemporain</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" class="tabs">Parcs</a>
+                        <ul class="submenu">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li id="searchbar"><input type="text" name="rechercher" placeholder="Rechercher..."></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+        
          
        
-    </header>
+    
    <div class="spacer"> </div>
     <div class="description">
         <p>Explorez la diversité naturelle et culturelle de Marseille à travers ses magnifiques randonnées qui offrent des panoramas à couper le souffle. Que vous recherchiez des sentiers côtiers, des collines verdoyantes ou des vues urbaines, les randonnées de Marseille vous invitent à l'aventure en plein air.</p>
@@ -36,6 +91,7 @@
             </div>
             <div class="spacer"></div>
             <div class="p"><p>Coordonnées GPS de la calanque : 43.212196, 5.454012 </p></div>
+            <div class="spacer"></div>
         </article>
         
          
@@ -55,7 +111,7 @@
         
                 <p>Que vous soyez attiré par l'exploration géologique, les activités nautiques ou simplement la contemplation de paysages époustouflants, la Calanque d'En-Vau vous invite à vous émerveiller devant la splendeur naturelle de Marseille.</p>
             </div>
-            
+            <div class="spacer"></div>
             <div class="p"> <p>Coordonnées GPS de la calanque : 43.202414, 5.497703 </p></div>
             <div class="spacer"></div>
         </article>
@@ -75,13 +131,13 @@
         
                 <p>Que vous soyez un passionné de randonnée ou un amoureux de la nature en quête d'aventure, la Crête de Morgiou vous invite à vous élever au-dessus des calanques et à découvrir la grandeur naturelle du Massif des Calanques.</p>
             </div>
-
-            <div class="p"><p>Coordonnées GPS de la calanque : 43.230722, 5.436862</p></div>
             <div class="spacer"> </div>
+            <div class="p"><p>Coordonnées GPS de la calanque : 43.230722, 5.436862</p></div>
+            <div class="spacer"></div>
         </article>
      
         <article class="parc">
-            <img src="Col de la Candelle.jpg" alt="Parc National des Calanques - Col de la Candelle">
+            <img src="col-de-la-candelle.jpg" alt="Parc National des Calanques - Col de la Candelle">
             <div class="text">
                 <h2>Parc National des Calanques - Col de la Candelle</h2>
                 <p>Le Col de la Candelle, situé dans le Parc National des Calanques, offre une ascension panoramique au cœur de la nature préservée de Marseille. Cette randonnée emblématique permet aux visiteurs de découvrir la diversité des paysages méditerranéens.</p>
@@ -98,6 +154,7 @@
             
             
             <div class="p"><p> Coordonnées GPS de la calanque :   43.2314, 5.436043</p></div>
+            <div class="spacer"></div>
         </article>
 
         <article class="parc">
@@ -116,6 +173,7 @@
             </div>
             <div class="spacer"> </div>
             <div class="p"> <p> Cordonnées  43.300000,  5.400000 </p></div>
+            <div class="spacer"></div>
         </article>
         
         
@@ -123,7 +181,46 @@
     </section>
 
     
-
+    <footer>
+        <section class="conteneur-footer">
+            <div>
+                <h3>Sommaire</h3>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Histoire</a></li>
+                    <li><a href="#">Randonées</a></li>
+                    <li><a href="#">Plages</a></li>
+                    <li><a href="#">Musées</a></li>
+                    <li><a href="#">Parcs</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contacts</h3>
+                <ul class="liens-footer">
+                    <li><a href="#">Téléphone</a></li>
+                    <li><a href="#">E-mail</a></li>
+                    <li><a href="#">Formulaire</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Site</h3>
+                <ul>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">C.G.U</a></li>
+                    <li><a href="#">Politique de confidentialité</a></li>
+                </ul>
+            </div>
+      <div>
+                <h3>Réseaux sociaux</h3>
+                <ul class="reseaux">
+          <li><a href="https://www.facebook.com/marseilleville/"><img src="logo-facebook-noir.png" class="logo-rs" alt="logo Facebook"></a></li>
+                    <li><a href="https://twitter.com/marseille"><img src="logo-black.png.twimg.1920.png" class="logo-rs" alt="logo X"></a></li>
+                    <li><a href="https://www.instagram.com/villemarseille/"><img src="icons-instagram.png" class="logo-rs" alt="logo Instagram"></a></li>
+          <li><a href="https://www.youtube.com/user/VilledeMarseille"><img src="youtube_logo_icon_206627.png" class="logo-ytb" alt="logo Youtube"></a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
    
 
 </body>
