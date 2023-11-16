@@ -117,14 +117,11 @@ p {
     margin-left: 83px;
 }
 
-img {
-    margin-bottom: -60px;
-}
-
 .touslesmusées {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-bottom: 30px;
 }
 
 
@@ -146,6 +143,7 @@ img {
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
+    transform: scale(0.7);
 
 }
 
@@ -153,15 +151,11 @@ img {
     background-color: orange;
 }
 
-img {
-    transform: scale(0.7);
 
-}
 
 
 .musée1 h2 {
     margin: 10px 0;
-
 }
 
 
@@ -178,8 +172,7 @@ img {
 
 footer {
     background-color: #D5F3FE;
-    padding-top: 40px;
-    padding-bottom: 0%;
+    padding-top: 15px;
 }
 
 .conteneur-footer {

@@ -123,6 +123,7 @@ h2
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 800;
+    margin-bottom: 20px;
 }
 
 .imgvuemarseille 
@@ -220,7 +221,7 @@ p
 
 footer {
     background-color: #D5F3FE;
-    padding-top: 30px;
+    padding-top: 15px;
 }
 
 .conteneur-footer {

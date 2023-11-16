@@ -108,7 +108,7 @@ h1 {
     color: rgb(0, 71, 163);
 }
 
-h3 {
+.qualitéeaux {
     color: rgb(0, 182, 217);
     font-size: 26px;
     font-weight: 600;
@@ -241,7 +241,7 @@ p {
 
 footer {
     background-color: #D5F3FE;
-    padding-top: 0%;
+    padding-top: 15px;
 }
 
 .conteneur-footer {
