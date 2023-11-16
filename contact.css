@@ -113,7 +113,7 @@ h2 {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
-    margin-bottom: 22px;
+    margin-bottom: 15px;
 }
 
 .conteneur-telephone {
@@ -159,11 +159,11 @@ h2 {
     justify-content: center;
     align-items: center;
     width: 60%;
-    height: 900px;
+    height: 810px;
     font-weight: 420;
     margin: auto;
-    border: transparent solid;
-    background-color: white;
+    border: solid 1px black;
+    background-color: #1969d140;
     box-shadow: 2px 2px 3px black;
     margin-bottom: 40px;
 }
@@ -176,8 +176,8 @@ h2 {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 0;
+    margin-left: 0;
     resize: vertical;
 }
   
