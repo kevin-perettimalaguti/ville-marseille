@@ -148,6 +148,11 @@ h2
     margin-top: 80px;
 }
 
+iframe 
+{
+    padding: 40px;
+}
+
 .legendeetsymbole 
 {
     display: flex;
@@ -155,6 +160,8 @@ h2
     justify-content: space-between;
     margin: auto;
     background-color: aquamarine;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .monumentshistorique 
@@ -186,7 +193,7 @@ h2
 {
     font-weight: 600;
     font-size: 26px;
-    color: black;
+    color: black;   
 }
 
 .span2 
