@@ -1,0 +1,57 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+section.parc-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+article.parc {
+    width: 45%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.p {
+    color: #3498db; 
+    
+    font-weight: bold; 
+}
+
+
+.text {
+    padding: 10px;
+}
+
+
+.spacer {
+margin: 60px;
+}
+.spacer2 {
+    margin: 150px;
+    }
+
+.description {
+    font-size: 20px;
+    color: #797575;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px; 
+}
