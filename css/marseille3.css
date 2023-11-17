@@ -1,0 +1,281 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    background-color: #D5F3FE;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pages {
+    width: 90%;
+    line-height: 60px;
+}
+
+.tabs {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 530;
+    text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.459)
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90px;
+}
+
+.pages ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pages li,
+.pages a {
+    font-size: large;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+input {
+    width: 120px;
+    padding: 4px;
+    padding-left: 7px;
+    border-radius: 13px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown .submenu {
+    display: none;
+    position: absolute;
+    backdrop-filter: blur(5px);
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    line-height: 3em;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+    padding-left: 10px;
+}
+
+.submenu li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: black;
+    text-shadow: 5px 5px 10px black;
+}
+
+body {
+    background-color: rgb(247, 244, 241);
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Orkney Bold", sans-serif;
+    font-weight: 800;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    color: rgb(0, 71, 163);
+}
+
+.qualitéeaux {
+    color: rgb(0, 182, 217);
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 70px;
+    margin-bottom: 35px;
+    font-family: "Orkney Bold", sans-serif;
+    margin-top: 80px;
+}
+
+p {
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-right: 30px;
+    margin-top: 0%;
+}
+
+.presentationtexte {
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: blue;
+}
+
+.textedroite {
+    text-align: right;
+    margin-right: 240px;
+    font-size: 27px;
+    font-family: inherit;
+    font-weight: 800;
+    margin-top: 120px;
+    margin-bottom: -30px;
+    color: rgb(0, 182, 217);
+    padding-top: 20px;
+    padding-bottom: -40px;
+    font-weight: 800;
+    font-family: "Orkney Bold", sans-serif;
+}
+
+.textegauche {
+    text-align: left;
+    margin-left: 240px;
+    font-size: 27px;
+    font-family: inherit;
+    font-weight: 800;
+    margin-top: 120px;
+    margin-bottom: -30px;
+    color: rgb(0, 182, 217);
+    padding-top: 20px;
+    padding-bottom: -40px;
+    font-weight: 800;
+    font-family: "Orkney Bold", sans-serif;
+}
+
+.imageettexte1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.imageettexte2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.imgprado {
+    width: 760px;
+    height: 400px;
+    padding: 15px;
+}
+
+.imgprophète {
+    width: 760px;
+    height: 400px;
+    padding: 15px;
+}
+
+
+
+.imgpointe {
+    width: 760px;
+    height: 400px;
+    padding: 15px;
+}
+
+
+.imgcatalans {
+    width: 760px;
+    height: 400px;
+    padding: 15px;
+}
+
+.imgsormiou {
+    width: 820px;
+    height: 450px;
+    padding: 15px;
+}
+
+.imgestaque {
+    width: 780px;
+    height: 360px;
+    padding: 15px;
+}
+
+.plageprado {
+    background-color: rgb(255, 255, 255);
+}
+
+.plagepointe {
+    background-color: rgb(255, 255, 255);
+}
+
+.plageprophète {
+    background-color: rgb(255, 255, 255);
+}
+
+.plagecatalans {
+    background-color: rgb(255, 255, 255);
+}
+
+.calanquesormiou {
+    background-color: rgb(255, 255, 255);
+}
+
+.plagelestaque {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #D5F3FE;
+    padding-top: 15px;
+}
+
+.conteneur-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.conteneur-footer h3 {
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 530;
+    font-size: medium;
+}
+
+.conteneur-footer li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.conteneur-footer a {
+    font-size: 13px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.reseaux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2em;
+}
+
+.logo-rs {
+    height: 20px;
+}
+
+.logo-ytb {
+    height: 23px;
+}

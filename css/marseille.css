@@ -1,0 +1,349 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    background-color: #D5F3FE;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pages {
+    width: 90%;
+    line-height: 60px;
+}
+
+.tabs {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 530;
+    text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.459)
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90px;
+}
+
+.pages ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pages li,
+.pages a {
+    font-size: large;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+input {
+    width: 120px;
+    padding: 4px;
+    padding-left: 7px;
+    border-radius: 13px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown .submenu {
+    display: none;
+    position: absolute;
+    backdrop-filter: blur(5px);
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    line-height: 3em;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+    padding-left: 10px;
+}
+
+.submenu li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+main {
+    background-color: #efefef;
+    padding-bottom: 50px;
+}
+
+.image-conteneur {
+    display: table;
+    height: 520px;
+    width: 100%;
+    /* background-image: url(./images/notre-dame-de-la-garde-marseille.jpg); */
+    background-image: url(../images/notre-dame-de-la-garde-marseille.jpg);
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.image-content {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 10px 10px 10px black;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 10px black;
+    margin-bottom: 20px;
+}
+
+.rectangle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    height: 220px;
+    margin: auto;
+    padding-left: 10px;
+    border: transparent solid;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.rectangle img {
+    width: 60%;
+    height: 190px;
+}
+
+.rectangle-texte {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: jus;
+    padding: 10px;
+}
+
+.rectangle-texte h3 {
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 10px rgb(177, 176, 176);
+    text-decoration: underline black;
+}
+
+.rectangle-texte p {
+    flex-grow: 1;
+}
+
+.conteneur-rectangle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 300px;
+    margin: auto;
+    border: transparent solid;
+    background-color: white;
+    box-shadow: 1px 1px 3px black;
+    margin-bottom: 60px;
+}
+
+
+.rectangle2 {
+    display: flex;
+    width: 47%;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1969d1;
+    color: white;
+    height: 240px;
+    margin: auto;
+    border: solid 1px;
+    margin-bottom: 20px;
+}
+
+.rectangle2 img {
+    width: 50%;
+}
+
+.rectangle-texte2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.rectangle-texte2 h3 {
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 10px rgb(177, 176, 176);
+    text-decoration: underline black;
+}
+
+.rectangle-texte2 p {
+    flex-grow: 1;
+}
+
+.conteneur-rectangle3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 250px;
+    margin: auto;
+    border: transparent solid;
+    background-color: white;
+    box-shadow: 1px 1px 3px black;
+}
+
+.rectangle3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 87%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1969d1;
+    color: white;
+    height: 190px;
+    border: solid 1px black;
+}
+
+.rectangle3 p {
+    margin-bottom: 20px;
+}
+
+.rectangle3 h3 {
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 10px rgb(177, 176, 176);
+    text-decoration: underline black;
+}
+
+.content-newsletter {
+    width: 360px;
+    height: 40px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, .2);
+    border-radius: 60px;
+    overflow: hidden;
+}
+
+.inscription {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.inscription .add-email {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+}
+
+.inscription .submit-email {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: calc(100% - 2px);
+    width: 100px;
+    border: none;
+    border-radius: 60px;
+    outline: none;
+    margin: 1px;
+    padding: 0 20px;
+    cursor: pointer;
+    background: #4ABEBB;
+    color: #FFFFFF;
+}
+
+h3 {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 10px;
+    bottom: 0;
+    background-color: #D5F3FE;
+}
+
+.conteneur-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.conteneur-footer h3 {
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 530;
+    font-size: medium;
+}
+
+.conteneur-footer li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.conteneur-footer a {
+    font-size: 13px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.reseaux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2em;
+}
+
+.logo-rs {
+    height: 20px;
+}
+
+.logo-ytb {
+    height: 23px;
+}
