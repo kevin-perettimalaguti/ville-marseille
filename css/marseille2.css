@@ -5,8 +5,7 @@
 
 
 body {
-    font-family: Georgia, serif;
-
+    font-family: 'Montserrat', serif;
 }
 
 
@@ -24,14 +23,19 @@ article.parc {
     overflow: hidden;
 }
 
- main img {
+main { 
+    background-color: #efefef;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+main img {
     width: 100%;
     height: auto;
 }
 
 .p {
     color: #3498db; 
-    
     font-weight: bold; 
 }
 
@@ -40,10 +44,6 @@ article.parc {
     padding: 10px;
 }
 
-
-.spacer {
-margin: 60px;
-}
 .spacer2 {
     margin: 150px;
     }
@@ -54,6 +54,11 @@ margin: 60px;
     margin-bottom: 20px;
     margin-right: 20px;
     margin-left: 20px; 
+}
+.description h1 {
+    color: black;
+    padding-bottom: 15px;
+    font-weight: 500;
 }
 header {
     width: 100%;
