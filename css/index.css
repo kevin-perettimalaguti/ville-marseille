@@ -97,7 +97,8 @@ main {
     display: table;
     height: 520px;
     width: 100%;
-    background-image: url(/images/notre-dame-de-la-garde-marseille.jpg);
+    /* background-image: url(./images/notre-dame-de-la-garde-marseille.jpg); */
+    background-image: url(../images/notre-dame-de-la-garde-marseille.jpg);
     background-size: cover;
     margin-bottom: 30px;
 }
