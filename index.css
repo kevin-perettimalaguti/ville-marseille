@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 *{
+=======
+* {
+>>>>>>> ilian
     margin: 0px;
     padding: 0px;
 }
@@ -12,7 +16,11 @@ header {
     top: 0;
     background-color: #D5F3FE;
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> ilian
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -44,7 +52,12 @@ nav {
     justify-content: space-evenly;
 }
 
+<<<<<<< HEAD
 .pages li, .pages a {
+=======
+.pages li,
+.pages a {
+>>>>>>> ilian
     font-size: large;
     list-style-type: none;
     text-decoration: none;
@@ -55,9 +68,15 @@ nav {
 input {
     width: 120px;
     padding: 4px;
+<<<<<<< HEAD
     padding-left: 7px ;
     border-radius: 13px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+=======
+    padding-left: 7px;
+    border-radius: 13px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+>>>>>>> ilian
     border: none;
 }
 
@@ -70,7 +89,11 @@ input {
     position: absolute;
     backdrop-filter: blur(5px);
     min-width: 220px;
+<<<<<<< HEAD
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+=======
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+>>>>>>> ilian
     z-index: 1;
     line-height: 3em;
 }
@@ -196,7 +219,11 @@ h2 {
 }
 
 .rectangle2 img {
+<<<<<<< HEAD
     width: 50%; 
+=======
+    width: 50%;
+>>>>>>> ilian
 }
 
 .rectangle-texte2 {
@@ -263,6 +290,7 @@ h2 {
 }
 
 .inscription {
+<<<<<<< HEAD
 position: relative;
 width: 100%;
 height: 100%;
@@ -293,6 +321,38 @@ padding: 0 20px;
 cursor: pointer;
 background: #4ABEBB;
 color: #FFFFFF;
+=======
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.inscription .add-email {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+}
+
+.inscription .submit-email {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: calc(100% - 2px);
+    width: 100px;
+    border: none;
+    border-radius: 60px;
+    outline: none;
+    margin: 1px;
+    padding: 0 20px;
+    cursor: pointer;
+    background: #4ABEBB;
+    color: #FFFFFF;
+>>>>>>> ilian
 }
 
 h3 {
