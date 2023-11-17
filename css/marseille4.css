@@ -1,57 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
-}
-
-
-
-
-body {
-    font-family: Georgia, serif;
- 
-}
-
-section.parc-info {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-article.parc {
-    width: 45%;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-}
-
-main img {
-width: 100%;
-height: auto;
-}
-    
-
-main a{
-    color: #000; 
-    text-decoration: none; 
-    font-weight: bold; 
-}
-
-
-.text {
-    padding: 10px;
-}
-
-
-.spacer {
-margin: 60px;
-}
-
- .description{
-    font-size: 20px;
-    color: #797575;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px; 
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -63,7 +12,7 @@ header {
     top: 0;
     background-color: #D5F3FE;
 }
- 
+
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -95,7 +44,8 @@ nav {
     justify-content: space-evenly;
 }
 
-.pages li, .pages a {
+.pages li,
+.pages a {
     font-size: large;
     list-style-type: none;
     text-decoration: none;
@@ -106,9 +56,9 @@ nav {
 input {
     width: 120px;
     padding: 4px;
-    padding-left: 7px ;
+    padding-left: 7px;
     border-radius: 13px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
     border: none;
 }
 
@@ -121,9 +71,14 @@ input {
     position: absolute;
     backdrop-filter: blur(5px);
     min-width: 220px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     line-height: 3em;
+}
+
+.dropdown .submenu .lieux {
+    color: black;
+    font-size: medium;
 }
 
 .dropdown:hover .submenu {
@@ -138,10 +93,85 @@ input {
     text-shadow: 5px 5px 10px black;
 }
 
+body {
+    background-color: rgb(247, 244, 241);
+}
+
+h1 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin: 0 0 1.66667rem;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-left: 83px;
+}
+
+p {
+    font-size: 21px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.presentation {
+    margin-left: 83px;
+}
+
+.touslesmusées {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+
+.musée1 {
+    width: 400px;
+    height: 500px;
+    margin: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0%;
+    background-color: rgb(247, 244, 241);
+}
+
+
+.musée1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    transform: scale(0.7);
+
+}
+
+.musée1:hover {
+    background-color: orange;
+}
+
+
+
+
+.musée1 h2 {
+    margin: 10px 0;
+}
+
+
+.musée1 p {
+    margin: 5px 0;
+
+}
+
+.logomusée {
+    height: 70px;
+    margin-left: 18px;
+}
+
 footer {
-    padding: 10px;
-    bottom: 0;
     background-color: #D5F3FE;
+    padding-top: 15px;
 }
 
 .conteneur-footer {

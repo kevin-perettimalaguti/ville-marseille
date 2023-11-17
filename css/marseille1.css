@@ -108,30 +108,31 @@ ul
     list-style: none;
 }
 
+main {
+    font-family: 'Montserrat', sans-serif;
+}
+
 h1 
 {
     text-align: center;
-    font-weight: 800;
-    font-size: 50px;    
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
     color: blue;
-    margin-top: 40px;
-    margin-bottom: 0%;
+    padding-top: 40px;
+    padding-top: 80px;
+    background-color: #efefef;
 }
 
 h2 
 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 800;
     margin-bottom: 20px;
 }
 
 .imgvuemarseille 
 {
-    width: 1500px;
-    height: 780px;
+    width: 100%;;
     margin-top: 0%;
     margin-bottom: 30px;
+    object-fit: cover;
 }
 
 .imgdamedelagarde 
@@ -145,7 +146,6 @@ h2
 {
     text-align: center;
     margin-bottom: 80px;
-    margin-top: 80px;
 }
 
 iframe 
@@ -159,7 +159,7 @@ iframe
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    background-color: aquamarine;
+    background-color: rgba(43, 162, 230, 0.621);
     margin-right: 30px;
     margin-left: 30px;
 }
@@ -207,16 +207,6 @@ p
 {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;    
-}
-
-.texteorigine 
-{
-    color: aqua;
-}
-
-.textehistorique 
-{
-    color: aqua;
 }
 
 .citéhistorique 
