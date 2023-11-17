@@ -162,11 +162,6 @@ h1 {
     margin:0 auto;
 }
 
-.contact-form {
-    display: flex;
-    justify-content: center;
-}
-
 footer {
     padding: 10px;
     bottom: 0;
