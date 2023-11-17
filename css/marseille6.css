@@ -105,54 +105,6 @@ h1 {
     padding-top: 70px;
 }
 
-h2 {
-    display: flex;
-    justify-content: center;
-    color: black;
-    text-decoration: underline black;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 2px;
-    margin-bottom: 15px;
-}
-
-.conteneur-telephone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Montserrat', sans-serif;
-    width: 60%;
-    height: 400px;
-    font-weight: 420;
-    margin: auto;
-    border: transparent solid;
-    background-color: white;
-    box-shadow: 2px 2px 3px black;
-    margin-bottom: 60px;
-}
-
-.rectangle-telephone {
-    display: flex;
-    justify-content: center;
-    width: 87%;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #1969d1;
-    color: white;
-    height: 310px;
-    border: solid 1px black;
-    padding: 10px
-}
-
-.telephone {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    padding: 5px;
-    line-height: 2.5em;
-    margin-bottom: 50px;
-}
-
 .rectangle-form {
     display: flex;
     flex-direction: column;
@@ -208,7 +160,6 @@ h2 {
     width: 100%;
     max-width: 600px;
     margin:0 auto;
-    margin-top: 50px;
 }
 
 .contact-form {

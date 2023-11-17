@@ -72,6 +72,39 @@
 		</header>
 
     <main>
+		<h1 class="contact-form">Formulaire de contact</h1>
+		<section class="rectangle-form">
+        <div class="conteneur-form">
+            <form action="/action_page.php">
+                <label for="fname">Genre</label>
+            <br>
+                <select class="liste-form" name="Genre">
+                <option class="liste-form" value="Défaut"></option>
+                <option class="liste-form" value="Femme">Femme</option>
+                <option class="liste-form" value="Homme">Homme</option>
+                </select>
+            <br>
+    
+                <label for="fname">Nom</label>
+                <input type="text" id="fname" name="firstname" placeholder="Votre nom">
+    
+                <label for="fname">Prénom</label>
+                <input type="text" id="fname" name="firstname" placeholder="Votre prénom">
+            
+                <label for="sujet">Sujet</label>
+                <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+            
+                <label for="emailAddress">Email</label>
+                <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+            
+            
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+            
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+		</section>
     </main>
 
     <footer>
